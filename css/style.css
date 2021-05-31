@@ -1,11 +1,7 @@
-.toptext {
-    display: flex;
-    flex-wrap: wrap;
 
-}
 
 .text {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -21,11 +17,12 @@
 
 .navigatoin {
     display: flex;
-    margin-left: 650px;
+    margin-left: 679px;
 }
 
-.container_form1 {
-    display: flex;
+.container_form {
+   display: flex;
+    margin-left: 210px;
 }
 
 .container_checkbox {
@@ -39,12 +36,11 @@
 
 .forma {
     background: none;
-
 }
 
 .input1 {
     border-radius: 8px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 22px;
     width: 340px;
@@ -54,7 +50,7 @@
 
 .input2 {
     border-radius: 8px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 22px;
     width: 340px;
@@ -83,9 +79,12 @@
     color: #FFFFFF;
     cursor: pointer;
 
+    margin: 0 20px;
+
     border-radius: 8px;
-    | width: 340px;
+    width: 340px;
     height: 67px;
+
 }
 
 .subscribe_button:hover {
